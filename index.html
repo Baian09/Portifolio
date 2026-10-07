@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Davi Stelitano // Portfólio</title>
+  <meta name="description" content="Portfólio de Davi Stelitano Varêda Campos — Técnico em Informática pelo COTEMIG.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <a href="#inicio" class="logo">davi<span class="accent">.stelitano</span></a>
+    <button id="menu-btn" aria-label="Abrir menu">☰</button>
+    <ul id="menu">
+      <li><a href="#sobre">Sobre mim <span class="accent">//</span></a></li>
+      <li><a href="#skills">Skills <span class="accent">//</span></a></li>
+      <li><a href="#formacao">Formação <span class="accent">//</span></a></li>
+      <li><a href="#projetos">Projetos <span class="accent">//</span></a></li>
+      <li><a href="#contato">Contato <span class="accent">//</span></a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <header id="inicio">
+    <p class="tag mono">&lt;davi.dev /&gt; 2026</p>
+    <h1>Davi Stelitano <span class="accent">Varêda Campos</span></h1>
+    <p class="typewriter mono"><span id="typed"></span><span id="cursor">|</span></p>
+    <div class="badges">
+      <span class="badge">16 anos</span>
+      <span class="badge">Belo Horizonte, MG</span>
+      <span class="badge">COTEMIG — Barroca</span>
+    </div>
+    <div class="hero-actions">
+      <a href="#contato" class="btn primary">Entre em contato</a>
+      <a href="#sobre" class="btn ghost">Saiba mais →</a>
+    </div>
+    <a href="#contato" class="hero-link mono">davisvcampos@gmail.com</a>
+  </header>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="reveal">
+    <h2><span class="accent mono">//</span> sobre mim</h2>
+    <p class="lead">
+      Olá, sou o <strong>Davi</strong>, tenho 16 anos e curso o ensino médio técnico em
+      <strong>Informática</strong> no Colégio COTEMIG (unidade Barroca), com previsão de
+      conclusão em <strong>2027</strong>. Meu objetivo é aprimorar e aplicar minhas
+      habilidades de Informática, enriquecendo meus conhecimentos e currículo para
+      conseguir cursar uma <strong>faculdade no exterior</strong>.
+    </p>
+    <div class="cards">
+      <div class="card">
+        <h3 class="mono">> perfil</h3>
+        <p>Possuo uma postura exemplar referente a trabalho e me socializo bem com as pessoas. Procuro aprender mais sobre a área de minha escolha. Sou esforçado e tenho sempre disposição para aprender e me aprimorar como profissional e como pessoa.</p>
+      </div>
+      <div class="card">
+        <h3 class="mono">> objetivo</h3>
+        <p>Cursar uma <strong>faculdade no exterior</strong>, aprimorando continuamente minhas habilidades em tecnologia.</p>
+      </div>
+      <div class="card">
+        <h3 class="mono">> contato</h3>
+        <ul class="list">
+          <li> Buritis, Belo Horizonte — MG</li>
+          <li><a href="mailto:davisvcampos@gmail.com">davisvcampos@gmail.com</a></li>
+          <li><a href="tel:+5531975426310">(31) 97542-6310</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="reveal">
+    <h2><span class="accent mono">//</span> skills</h2>
+    <div class="skill-group">
+      <h3 class="mono">> Linguagens & Web</h3>
+      <div class="chips">
+        <span class="chip" data-level="2">Lógica de programação em C#</span>
+        <span class="chip" data-level="2">HTML & CSS</span>
+        <span class="chip" data-level="1">JavaScript</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <h3 class="mono">> Banco de Dados</h3>
+      <div class="chips">
+        <span class="chip" data-level="3">Modelagem e manipulação de BD</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <h3 class="mono">> Sistemas & Hardware</h3>
+      <div class="chips">
+        <span class="chip" data-level="2">Windows & Linux</span>
+        <span class="chip" data-level="2">Instalação e configuração de sistemas</span>
+        <span class="chip" data-level="1">Hardware</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <h3 class="mono">> Produtividade & Idiomas</h3>
+      <div class="chips">
+        <span class="chip" data-level="3">Pacote Google</span>
+        <span class="chip" data-level="3">Inglês — Intermediário/Avançado</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMAÇÃO -->
+  <section id="formacao" class="reveal">
+    <h2><span class="accent mono">//</span> formação</h2>
+    <div class="timeline">
+      <div class="t-item">
+        <span class="t-date mono">2025 — 2027 (previsão)</span>
+        <h3>Técnico em Informática</h3>
+        <p class="t-local">Colégio COTEMIG — Unidade Barroca · 2ª série, período manhã</p>
+        <p>Curso técnico integrado ao ensino médio, com foco em desenvolvimento, hardware e banco de dados.</p>
+      </div>
+      <div class="t-item future">
+        <span class="t-date mono">em breve</span>
+        <h3>Ensino Superior no Exterior</h3>
+        <p class="t-local">Objetivo de longo prazo</p>
+        <p>Prosseguir os estudos em uma faculdade internacional, aplicando a base técnica construída no COTEMIG.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projetos" class="reveal">
+    <h2><span class="accent mono">//</span> P R O J E T O S</h2>
+    <p class="lead">Uma coleção dos meus projetos e estudos em desenvolvimento.</p>
+    <div class="cards">
+      <div class="card project">
+        <span class="num mono">01</span>
+        <h3>Sistema de Estoque</h3>
+        <p>Projeto de estudo de lógica de programação e banco de dados em C#.</p>
+        <span class="status mono">Em desenvolvimento</span>
+        <div class="tags"><span>C#</span><span>Banco de Dados</span><span>Lógica</span></div>
+      </div>
+      <div class="card project">
+        <span class="num mono">02</span>
+        <h3>Primeiros Sites</h3>
+        <p>Páginas web praticando estrutura e estilização.</p>
+        <span class="status mono">Em desenvolvimento</span>
+        <div class="tags"><span>HTML</span><span>CSS</span></div>
+      </div>
+      <div class="card project">
+        <span class="num mono">03</span>
+        <h3>Scripts em JavaScript</h3>
+        <p>Automações e exercícios de lógica de programação.</p>
+        <span class="status mono">Em desenvolvimento</span>
+        <div class="tags"><span>JavaScript</span><span>Lógica</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="reveal">
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Entre em Contato // </span><span>Entre em Contato // </span>
+        <span>Entre em Contato // </span><span>Entre em Contato // </span>
+        <span>Entre em Contato // </span><span>Entre em Contato // </span>
+      </div>
+    </div>
+    <div class="contato-grid">
+      <form id="form">
+        <h2><span class="accent mono">//</span> contato</h2>
+        <input type="text" id="nome" placeholder="Seu nome" required>
+        <input type="email" id="email" placeholder="Seu e-mail" required>
+        <textarea id="msg" rows="5" placeholder="Sua mensagem" required></textarea>
+        <button type="submit" class="btn primary">Enviar</button>
+      </form>
+      <div class="cards contato-cards">
+        <a class="card" href="mailto:davisvcampos@gmail.com">
+          <h3 class="mono">> e-mail</h3><p>davisvcampos@gmail.com</p>
+        </a>
+        <a class="card" href="tel:+5531975426310">
+          <h3 class="mono">> telefone</h3><p>(31) 97542-6310</p>
+        </a>
+        <div class="card">
+          <h3 class="mono">> localização</h3><p>Buritis, Belo Horizonte — MG</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Davi Stelitano Varêda Campos <span class="accent mono">//</span> Feito com HTML, CSS e JavaScript</p>
+  </footer>
+
+  <div id="toast" class="mono">Mensagem preparada no seu e-mail! ✉️</div>
+
+  
+</body>
+</html>
